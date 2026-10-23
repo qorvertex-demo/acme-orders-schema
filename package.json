@@ -1,0 +1,12 @@
+{
+  "name": "acme-orders-schema",
+  "version": "1.0.0",
+  "description": "Owns the acme_orders database schema. The orders API and the reporting service read and write these tables.",
+  "main": "migrate.js",
+  "scripts": {
+    "migrate": "node migrate.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}
